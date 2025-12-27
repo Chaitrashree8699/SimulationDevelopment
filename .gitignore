@@ -1,0 +1,20 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore coverage data and reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Simulation log files
+logs/
+*.json
+
+.aider*
+.env
+.jd_tokens.json
+*.pem
+*.key

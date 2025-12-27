@@ -1,0 +1,25 @@
+[run]
+branch = True
+source = .
+
+omit =
+    */venv/*
+    */site-packages/*
+    htmlcov/*
+    .git/*
+    tempCodeRunnerFile.py
+    */__pycache__/*
+    .pytest_cache/*
+    */__init__.py
+
+[report]
+show_missing = True
+skip_covered = False
+skip_empty = False
+precision = 1
+
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:
+    @abstractmethod
+    raise NotImplementedError
